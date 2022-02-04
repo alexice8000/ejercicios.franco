@@ -39,7 +39,9 @@
         return $vr_distancia;
 
     }
-
+public function getmarca(){
+    return $this->marca;
+}
 }
 
 

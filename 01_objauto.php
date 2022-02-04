@@ -9,7 +9,12 @@ print_r($objVehiculo);
 print_r('</pre>');
 
 echo"<br>";
-echo $objVehiculo->marca;
+echo $objVehiculo->getMarca();
+echo "<br>";
+$objVehiculo->getMarca("FORD");
+echo $objVehiculo->getMarca();
+echo "<br>"
+echo $objVehiculo->modelo;
 echo "<br>";
 echo "la distancia recorida es:" . $objVehiculo->calculo_distancia();
 
